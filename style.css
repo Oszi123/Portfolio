@@ -188,7 +188,7 @@ margin-top: 30px;
 .index-banner {
 width: 100%;
 height: calc(100vh - 100px);
-background-image: url('../img/dev.jpg');
+background-image: url('./dev.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
