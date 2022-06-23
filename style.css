@@ -491,7 +491,7 @@ color: #f2f2f2;
   margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .footer-links-cases {
     display: block;
     float:left;
@@ -500,6 +500,48 @@ color: #f2f2f2;
     padding-right: 40px;
   }
 
+  .index-banner h2 {
+    font-size: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 535px) {
+
+  .footer-sm {
+    clear: both;
+    width: unset;
+    float: unset;
+    display: flex;
+  }
+  
+  .insta {
+    padding-top: 14px;
+  }
+}
+@media only screen and (max-width: 535px) {
+
+  .cases-links {
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+}
+@media only screen and (max-width: 1000px) {
+  .case-banner {
+    width: unset;
+    margin: auto;
+  }
 }
 
 .about-me {
