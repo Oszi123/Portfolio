@@ -307,7 +307,10 @@ width: 100%;
   width: 230px;
   height: 230px;
   margin: 20px 10px 0px;
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3;
+  background-image:url("./api.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat; */
 }
 
 .cases-links {
@@ -327,10 +330,103 @@ margin-bottom: 30px;
   padding-top: 45%;
   font-family: Fraunces;
   font-size: 20px;
-  color: #111;
+  color: rgb(255, 255, 255);
+  text-shadow: #000;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 3px 3px #080808;
+}
+
+.case1 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./comp.webp");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+
+.case2 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  background-image:url("./co.jpeg");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px; 
+}
+
+.case3 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./api.jpeg");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+.case4 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image: url("./lead.jpeg");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+.case5 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./pro.jpeg");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+.case6 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./comp.webp");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+.case7 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./low.webp");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
+}
+
+.case8 {
+  float: left;
+  width: 230px;
+  height:fit-content;
+  margin: 20px 10px 0px;
+  /* background-color: #e3e3e3; */
+  background-image:url("./sec.jpeg");
+  background-size: 230px 230px;
+  background-repeat:no-repeat;
+  border-radius: 15px;
 }
 
 .case-banner {
